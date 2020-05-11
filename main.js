@@ -1,6 +1,6 @@
 const params = (new URL(location)).searchParams;
-const roomName = params.has('roomName') ? params.get('roomName') : '';
-const domain = 'league.aeternity.org';
+const roomName = params.has('roomName') ? params.get('roomName') : 'embeddedtestroom';
+const domain = 'league.superhero.com';
 
 const options = {
     roomName: roomName,
